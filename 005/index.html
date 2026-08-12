@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>005</title>
+<style>:root{
+  --bg:#151412;
+  --bg-alt:#1c1a17;
+  --ink:#ece9e2;
+  --ink-soft:#8a8579;
+  --line:#332f29;
+  --accent:#c98a4b;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Fraunces', Georgia, serif;
+}
+a{text-decoration:none; color:inherit;}
+.site-header{
+  padding:4rem 6vw;
+  border-bottom:1px solid var(--line);
+  text-align:center;
+}
+.site-header h1{
+  font-size:2.8rem;
+  margin:0;
+}
+.btn-volver{
+  display:inline-block;
+  margin:2rem 6vw 1rem;
+  padding:10px 20px;
+  border:1px solid var(--line);
+  background:var(--bg-alt);
+}
+.albumes-grid, .galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill, minmax(280px, 1fr)
+  );
+  gap: 24px; padding: 2rem 6vw;
+}
+.tarjeta-foto, .tarjeta-album {
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.contenedor-thumbnail {
+  width: 100%; padding-top: 100%;
+  position: relative; background: var(--line);
+}
+.contenedor-thumbnail img {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+}
+.info-foto { padding: 1rem; }
+.pie-foto {
+  margin: 0; font-size: 0.9rem;
+  line-height: 1.4; color: var(--ink);
+}
+.sin-desc {
+  color: var(--ink-soft); font-style: italic;
+}</style>
+</head>
+<body>
+    <header class="site-header">
+        <h1>005</h1>
+    </header>
+    <a href="../index.html" class="btn-volver">
+        ← Volver
+    </a>
+    <main class="galeria-grid">
+            <div class="tarjeta-foto">
+                <a href="grandes/001 - 005-6A.png" target="_blank">
+                    <div class="contenedor-thumbnail">
+                        <img src="thumbnails/001 - 005-6A.png" 
+                             alt="Imagen">
+                    </div>
+                    <div class="info-foto">
+                        <p class="pie-foto sin-desc">Sin descripción</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="tarjeta-foto">
+                <a href="grandes/002 - 005-8A.png" target="_blank">
+                    <div class="contenedor-thumbnail">
+                        <img src="thumbnails/002 - 005-8A.png" 
+                             alt="Imagen">
+                    </div>
+                    <div class="info-foto">
+                        <p class="pie-foto sin-desc">Sin descripción</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="tarjeta-foto">
+                <a href="grandes/003 - 005-28A.png" target="_blank">
+                    <div class="contenedor-thumbnail">
+                        <img src="thumbnails/003 - 005-28A.png" 
+                             alt="Imagen">
+                    </div>
+                    <div class="info-foto">
+                        <p class="pie-foto sin-desc">Sin descripción</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="tarjeta-foto">
+                <a href="grandes/004 - 005-29A.png" target="_blank">
+                    <div class="contenedor-thumbnail">
+                        <img src="thumbnails/004 - 005-29A.png" 
+                             alt="Imagen">
+                    </div>
+                    <div class="info-foto">
+                        <p class="pie-foto sin-desc">Sin descripción</p>
+                    </div>
+                </a>
+            </div>
+            </main>
+</body>
+</html>

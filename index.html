@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Fotografías</title>
+<style>:root{
+  --bg:#151412;
+  --bg-alt:#1c1a17;
+  --ink:#ece9e2;
+  --ink-soft:#8a8579;
+  --line:#332f29;
+  --accent:#c98a4b;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Fraunces', Georgia, serif;
+}
+a{text-decoration:none; color:inherit;}
+.site-header{
+  padding:4rem 6vw;
+  border-bottom:1px solid var(--line);
+  text-align:center;
+}
+.site-header h1{
+  font-size:2.8rem;
+  margin:0;
+}
+.btn-volver{
+  display:inline-block;
+  margin:2rem 6vw 1rem;
+  padding:10px 20px;
+  border:1px solid var(--line);
+  background:var(--bg-alt);
+}
+.albumes-grid, .galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill, minmax(280px, 1fr)
+  );
+  gap: 24px; padding: 2rem 6vw;
+}
+.tarjeta-foto, .tarjeta-album {
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.contenedor-thumbnail {
+  width: 100%; padding-top: 100%;
+  position: relative; background: var(--line);
+}
+.contenedor-thumbnail img {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+}
+.info-foto { padding: 1rem; }
+.pie-foto {
+  margin: 0; font-size: 0.9rem;
+  line-height: 1.4; color: var(--ink);
+}
+.sin-desc {
+  color: var(--ink-soft); font-style: italic;
+}</style>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Fotografías</h1>
+    </header>
+    <main class="albumes-grid">
+        
+        <div class="tarjeta-album">
+            <a href="002/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="002/thumbnails/001 - 002-2A.png" 
+                         alt="002">
+                </div>
+                <div class="info-foto">
+                    <h2>002</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="003/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="003/thumbnails/001 - 003-11A.png" 
+                         alt="003">
+                </div>
+                <div class="info-foto">
+                    <h2>003</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       3 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="004/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="004/thumbnails/001 - 004-16A.png" 
+                         alt="004">
+                </div>
+                <div class="info-foto">
+                    <h2>004</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="005/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="005/thumbnails/001 - 005-6A.png" 
+                         alt="005">
+                </div>
+                <div class="info-foto">
+                    <h2>005</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       4 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="006/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="006/thumbnails/001 - 006-12A.png" 
+                         alt="006">
+                </div>
+                <div class="info-foto">
+                    <h2>006</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       5 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="007/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="007/thumbnails/001 - 007-2A.png" 
+                         alt="007">
+                </div>
+                <div class="info-foto">
+                    <h2>007</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       8 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="008/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="008/thumbnails/001 - 008-7A.png" 
+                         alt="008">
+                </div>
+                <div class="info-foto">
+                    <h2>008</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="009/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="009/thumbnails/001 - 009-4A.png" 
+                         alt="009">
+                </div>
+                <div class="info-foto">
+                    <h2>009</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="010/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="010/thumbnails/001 - 010-16A.png" 
+                         alt="010">
+                </div>
+                <div class="info-foto">
+                    <h2>010</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="011/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="011/thumbnails/001 - 011-14A.png" 
+                         alt="011">
+                </div>
+                <div class="info-foto">
+                    <h2>011</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="012/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="012/thumbnails/001 - 012-33A.png" 
+                         alt="012">
+                </div>
+                <div class="info-foto">
+                    <h2>012</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="013/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="013/thumbnails/001 - 013-18A.png" 
+                         alt="013">
+                </div>
+                <div class="info-foto">
+                    <h2>013</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="014/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="014/thumbnails/001 - 014-34A.png" 
+                         alt="014">
+                </div>
+                <div class="info-foto">
+                    <h2>014</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="015/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="015/thumbnails/001 - 015-26A.png" 
+                         alt="015">
+                </div>
+                <div class="info-foto">
+                    <h2>015</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="016/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="016/thumbnails/001 - 016-9A.png" 
+                         alt="016">
+                </div>
+                <div class="info-foto">
+                    <h2>016</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="017/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="017/thumbnails/001 - 017-9A.png" 
+                         alt="017">
+                </div>
+                <div class="info-foto">
+                    <h2>017</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="018/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="018/thumbnails/001 - 018-11A.png" 
+                         alt="018">
+                </div>
+                <div class="info-foto">
+                    <h2>018</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="025/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="025/thumbnails/001 - 025-2A.jpg" 
+                         alt="025">
+                </div>
+                <div class="info-foto">
+                    <h2>025</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="027/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="027/thumbnails/001 - 027-10A.png" 
+                         alt="027">
+                </div>
+                <div class="info-foto">
+                    <h2>027</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="029/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="029/thumbnails/001 - 029-36A.png" 
+                         alt="029">
+                </div>
+                <div class="info-foto">
+                    <h2>029</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="031/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="031/thumbnails/001 - 031-4A.png" 
+                         alt="031">
+                </div>
+                <div class="info-foto">
+                    <h2>031</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="032/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="032/thumbnails/001 - 032-36A.png" 
+                         alt="032">
+                </div>
+                <div class="info-foto">
+                    <h2>032</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="033/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="033/thumbnails/001 - 033-25A.png" 
+                         alt="033">
+                </div>
+                <div class="info-foto">
+                    <h2>033</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       3 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="034/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="034/thumbnails/001 - 034-26A.png" 
+                         alt="034">
+                </div>
+                <div class="info-foto">
+                    <h2>034</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="035/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="035/thumbnails/001 - 035-3A.png" 
+                         alt="035">
+                </div>
+                <div class="info-foto">
+                    <h2>035</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       14 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="036/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="036/thumbnails/001 - 036-41A.png" 
+                         alt="036">
+                </div>
+                <div class="info-foto">
+                    <h2>036</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       7 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="038/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="038/thumbnails/001 - 038-34A.png" 
+                         alt="038">
+                </div>
+                <div class="info-foto">
+                    <h2>038</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       3 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="039/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="039/thumbnails/001 - 039-15A.png" 
+                         alt="039">
+                </div>
+                <div class="info-foto">
+                    <h2>039</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       4 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="040/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="040/thumbnails/001 - 040-7A.png" 
+                         alt="040">
+                </div>
+                <div class="info-foto">
+                    <h2>040</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       1 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="041/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="041/thumbnails/001 - 041-19A.png" 
+                         alt="041">
+                </div>
+                <div class="info-foto">
+                    <h2>041</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="0xx/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="0xx/thumbnails/001 - DSCF5291.jpg" 
+                         alt="0XX">
+                </div>
+                <div class="info-foto">
+                    <h2>0XX</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       2 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="grecia-2025/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="grecia-2025/thumbnails/001.jpg" 
+                         alt="Grecia 2025">
+                </div>
+                <div class="info-foto">
+                    <h2>Grecia 2025</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       202 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-aceitunas/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-aceitunas/thumbnails/001 - DSCF3617.jpg" 
+                         alt="LibroLydia-Aceitunas">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Aceitunas</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-cerezas/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-cerezas/thumbnails/001 - DSCF4767.JPG" 
+                         alt="LibroLydia-Cerezas">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Cerezas</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       12 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-cocido/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-cocido/thumbnails/001 - DSCF4796.JPG" 
+                         alt="LibroLydia-Cocido">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Cocido</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       11 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-desayuno/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-desayuno/thumbnails/001 - DSCF4757.JPG" 
+                         alt="LibroLydia-Desayuno">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Desayuno</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       6 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-gazpacho/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-gazpacho/thumbnails/001 - DSCF3661.jpg" 
+                         alt="LibroLydia-Gazpacho">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Gazpacho</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       91 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-horchata/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-horchata/thumbnails/001 - DSCF3623.jpg" 
+                         alt="LibroLydia-Horchata">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Horchata</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       12 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-jamon/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-jamon/thumbnails/001 - DSCF4816.JPG" 
+                         alt="LibroLydia-Jamón">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Jamón</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       9 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-mantecados/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-mantecados/thumbnails/001 - DSCF4868.jpg" 
+                         alt="LibroLydia-Mantecados">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Mantecados</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       21 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-migas/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-migas/thumbnails/001 - DSCF4786.JPG" 
+                         alt="LibroLydia-Migas">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Migas</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       8 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-migas2/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-migas2/thumbnails/001 - DSCF3651.jpg" 
+                         alt="LibroLydia-Migas2">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Migas2</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       10 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-mojama/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-mojama/thumbnails/001 - DSCF4447.JPG" 
+                         alt="LibroLydia-Mojama">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Mojama</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       11 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-pavo/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-pavo/thumbnails/001 - DSCF4840.jpg" 
+                         alt="LibroLydia-Pavo">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Pavo</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       8 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-sardinas/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-sardinas/thumbnails/001 - DSCF4439.JPG" 
+                         alt="LibroLydia-Sardinas">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Sardinas</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       8 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-spaguetti/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-spaguetti/thumbnails/001 - DSCF4413.JPG" 
+                         alt="LibroLydia-Spaguetti">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Spaguetti</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       25 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-uvas/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-uvas/thumbnails/001 - DSCF3637.jpg" 
+                         alt="LibroLydia-Uvas">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Uvas</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       14 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="tarjeta-album">
+            <a href="librolydia-vino/index.html">
+                <div class="contenedor-thumbnail">
+                    <img src="librolydia-vino/thumbnails/001 - DSCF5276.JPG" 
+                         alt="LibroLydia-Vino">
+                </div>
+                <div class="info-foto">
+                    <h2>LibroLydia-Vino</h2>
+                    <p style="color:var(--ink-soft); 
+                              margin:0;">
+                       13 fotos
+                    </p>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
